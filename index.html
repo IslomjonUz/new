@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   Instagram Post
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="./style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="instagram-post">
+   <div class="header">
+    <img alt="User profile picture" height="40" src="https://storage.googleapis.com/a1aa/image/uaueaGemx0mO9U6SamunpfyzHeAfZdU0WIR64loIJ84fnU39E.jpg" width="40"/>
+    <div>
+     <div class="username">
+      username
+      <i class="fas fa-check-circle verified">
+      </i>
+     </div>
+     <div class="location">
+      Location Here
+     </div>
+    </div>
+    <div class="options">
+     <i class="fas fa-ellipsis-h">
+     </i>
+    </div>
+   </div>
+   <div class="post-image">
+    <img alt="Instagram post image" height="375" src="https://storage.googleapis.com/a1aa/image/B1viTpo7ijrsPdx1No9G7xHQuUKpfOfGIZRpIjhlegpAl6unA.jpg" width="375"/>
+   </div>
+   <div class="post-actions">
+            <div class="like-btn" onclick="toggleLike()">
+                <span class="white-heart-enable"><img src="./images/Capture.PNG" width="50px"></span>
+                <span class="red-heart-disable"><img src="./images/liked.png" width="50px"></span>
+            </div>
+            <div class="save-btn" onclick="toggleSave()">
+                <span class="white-save-enable"><img src="./images/save.png" width="50px"></span>
+                <span class="black-save-disable"><img src="./images/saved.png" width="50px"></span>
+            </div>
+        </div>
+   <div class="likes">
+    999 likes
+   </div>
+   <div class="caption">
+    <span class="username">
+     username
+    </span>
+    Lorem ipsum dolor
+    <span style="color: #00376b;">
+     #template
+    </span>
+   </div>
+   <div class="comments">
+    View all 123 comments
+   </div>
+   <div class="time">
+    1 hour •
+    <span style="color: #8e8e8e;">
+     See Translation
+    </span>
+   </div>
+   <div class="footer">
+    <i class="fas fa-home">
+    </i>
+    <i class="fas fa-search">
+    </i>
+    <i class="fas fa-plus-square">
+    </i>
+    <i class="fas fa-heart">
+    </i>
+    <i class="fas fa-user">
+    </i>
+   </div>
+  </div>
+  <script src="./app.js"></script>
+ </body>
+</html>

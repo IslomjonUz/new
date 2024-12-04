@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00a2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.instagram-post {
+    width: 375px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(232, 22, 22, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header .username {
+    font-weight: bold;
+}
+
+.header .verified {
+    color: #3897f0;
+    margin-left: 5px;
+}
+
+.header .location {
+    font-size: 12px;
+    color: #b41313;
+}
+
+.header .options {
+    margin-left: auto;
+}
+
+.header .options i {
+    font-size: 20px;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-image img {
+    width: 100%;
+}
+
+.post-actions {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.red-heart-disable {
+    display: none;
+}
+
+.black-save-disable {
+    display: none;
+}
+
+.black {
+    display: block;
+}
+
+.white {
+    display: none;
+}
+
+.likes {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.caption {
+    padding: 0 10px;
+}
+
+.caption .username {
+    font-weight: bold;
+}
+
+.comments {
+    padding: 0 10px;
+    color: #7a7676;
+}
+
+.time {
+    padding: 0 10px;
+    color: #575151;
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+.footer i {
+    font-size: 24px;
+}
